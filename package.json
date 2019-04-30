@@ -1,21 +1,27 @@
 {
   "name": "cdk-branches",
   "version": "0.1.0",
-  "bin": {
-    "cdk-branches": "bin/cdk-branches.js"
-  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@types/node": "8.10.45",
-    "typescript": "^3.3.3333",
-    "aws-cdk": "^0.29.0"
+    "@types/lodash": "4.14.123",
+    "@types/node": "11.13.8",
+    "aws-cdk": "0.29.0",
+    "cdk-infra-properties": "0.1.9",
+    "typescript": "3.4.5"
   },
   "dependencies": {
-    "@aws-cdk/cdk": "^0.29.0",
-    "source-map-support": "^0.5.9"
+    "@aws-cdk/aws-ec2": "0.29.0",
+    "@aws-cdk/aws-lambda": "0.29.0",
+    "@aws-cdk/cdk": "0.29.0",
+    "branch-name": "1.0.0",
+    "dotenv": "7.0.0",
+    "dotenv-expand": "5.1.0",
+    "lodash": "4.17.11",
+    "properties-reader": "0.0.16",
+    "source-map-support": "0.5.12"
   }
 }
